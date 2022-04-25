@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Form</title>
+</head>
+<body>
+    <div class="app">
+        <div class="main">
+            <form name="form" onsubmit="return validateForm()" method="get">
+                <h3 class="head">Send us a message</h3>
+                <div name="form-grid">
+                <div class="labels">
+                    <label for="name">Name*</label>
+                    <label for="email">Email*</label>
+                </div> <br>
+                <input class="grid" type="text" placeholder="Your name"  name="name" id="name"> 
+                <input class="grid" type="text" name="email" id="email"  placeholder="Your email">
+                <br>
+                <div class="labels">
+                <label for="pno">Phone</label> 
+                <label for="company">Company</label> 
+                </div>
+                <br>
+                <input class="grid" type="number" name="pno" id="pno" placeholder="Phone #">
+                <input class="grid" type="text" name="company" id="company" placeholder="Company Name">  
+                
+                </div>
+                
+                <br>
+                <label for="msg">Message*</label> <br>
+                <textarea name="msg" id="msg" placeholder="Write your message"></textarea>                
+                <!-- <br> -->
+                <label for="gender">Gender</label> 
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="others">Others</label>
+                <input type="radio" name="gender" id="others" value="others">
+                <br>
+                <label for="promo"> Do you want to receive mails from the company?</label>
+                <input type="checkbox" name="promo" id="promo">
+                <br>
+                <input type="submit" value="S E N D   M E S S A G E" class="submit">
+            </form>
+        </div>
+        <div class="right">
+            <h2>Contact Information</h2>
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab esse, enim blanditiis nam illo, 
+            <br><br><br>
+            <img src="location-dot-solid.svg">9757 Aspen Lane South Richmond Hill, NY 11419
+            <br><br><br>
+            <img src="phone-solid.svg" >+1 291 939 9321
+            <br><br><br>
+            <img src="envelope-solid.svg" > info@mywebsite.com
+        </div>
+    </div>
+</body>
+</html>
