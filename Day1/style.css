@@ -1,0 +1,284 @@
+.hero{
+    background-image: url("template/Images/ddd.png");
+    height: 75vh;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+}
+
+li{
+    margin: 1rem;
+}
+
+h3{
+    font-size: 2rems;
+}
+h1{
+    font-size: 3rem;
+}
+
+.hero-text{
+    text-align: center;
+    padding: 3rem;
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin-left: 850px;
+    padding-top: 160px;
+    font-size: large
+}
+
+.btn{
+    margin-top: 1rem;
+    background-color: #E7E7E9;
+    color: black;
+    border: 3px solid black;
+    border-radius: 0px;
+    padding: 0.2rem 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+span{
+    margin: 1rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.icons{
+width: 3rem;
+margin: 1rem;
+}
+
+.secondDiv{
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    text-align: center;
+}
+
+.secondDiv > p, .secondDiv > h2 , .secondDiv > h3 {
+    text-align: center;
+}
+.blocksContainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blocksContainer > div {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    flex: 1 1 0px;
+}
+
+.abt{
+    margin-top: 1rem;
+    background-color: #fff;
+    color: black;
+    border: 3px solid black;
+    border-radius: 0px;
+    padding: 0.2rem 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+
+.phone{
+    height: 70%;
+}
+
+.col-6{
+    text-align: center;
+}
+
+.three-right{
+    background-image: url("template/Images/pexels-photo-2050137.jpeg");
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    
+    height: 100vh;
+    margin: 0%;
+    padding-top: 25%;
+}
+
+.fourth-head{
+    letter-spacing: 4px;
+    margin-left: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h6{
+    margin-left: 2.5rem;
+    
+}
+
+.blocksContainer-2 {
+    margin-top: 2rem;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blocksContainer-2 > div {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: left;
+    flex: 1 1 0px;
+}
+
+.four-parts{
+    background-color: #E7E7E9;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+
+.fifthDiv{
+    
+    background-image: url("template/Images/232c6d839624da0ae42d0f0b813ed0e8.jpeg");
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.blocksContainer-3 {
+    width: 70%;
+    padding-top: 6rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+}
+
+.blocksContainer-3 > div {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    flex: 1 1 0px;
+}
+
+hr{
+    border: 1px solid white;
+    width: 40%;
+    margin-left: 25%;
+}
+
+.blocksContainer-4 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blocksContainer-4 > div {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    flex: 1 1 0px;
+}
+
+.sixthDiv{
+    font-size: small;
+    margin-bottom: 3rem;
+}
+
+.six-head{
+    margin-top:2rem ;
+    text-align: center;
+}
+
+.six-heads{
+    letter-spacing: 2px;
+}
+
+.icons-6{
+    margin: 1rem;
+    width: 2rem;
+}
+
+.abt-neg{
+    margin-top: 1rem;
+    background-color: #000;
+    color: #fff;
+    border: 3px solid white;
+    border-radius: 0px;
+    padding: 0.2rem 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.seventhDiv{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: black;
+    color: white;
+    height: 30vh;
+    margin-left: 0%;
+    text-align: center;
+}
+
+.eight-head{
+    text-align: center;
+    margin: 2rem;
+}
+.eighthDiv{
+    text-align: center;
+    align-items: center;
+}
+
+.img-grid{
+    width: 30%;
+    height: 300px;
+    padding: 0.5rem;
+}
+
+.ninthDiv{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.testimonial-pic{
+  border-radius: 50%;
+  width: 14%;
+}
+.testimonial-p{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.testimonial-name{
+    margin-bottom: 3rem;
+}
+
+footer{
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    height: 30vh;
+    margin: 0%;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
