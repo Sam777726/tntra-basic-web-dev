@@ -10,7 +10,7 @@ li{
 }
 
 h3{
-    font-size: 2rems;
+    font-size: 2rem;
 }
 h1{
     font-size: 3rem;
@@ -57,7 +57,7 @@ margin: 1rem;
     text-align: center;
 }
 
-.secondDiv > p, .secondDiv > h2 , .secondDiv > h3 {
+.secondDiv > p, .secondDiv > h2  {
     text-align: center;
 }
 .blocksContainer {
