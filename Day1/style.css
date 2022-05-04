@@ -1,8 +1,15 @@
+.container-fluid{
+	padding: 0px;
+}
+
 .hero{
 	 background-image: url("template/Images/ddd.png");
 	 height: 75vh;
 	 background-size: auto 100%;
 	 background-repeat: no-repeat;
+	 display: flex;
+	 flex-direction: row-reverse;
+	 
 }
 
 li{
@@ -22,12 +29,11 @@ h1{
 
 .hero-text{
 	 text-align: center;
-	 padding: 3rem;
-	 /* border: 1px solid black; */
+	 margin-top: auto;
+	 margin-bottom: auto;
+	 margin-right: 20rem;
 	 width: fit-content;
-	 margin-left: 850px;
-	 padding-top: 160px;
-	 font-size: large
+	 font-size: large;
 }
 
 .btn{
@@ -173,6 +179,79 @@ h6{
 	 flex: 1 1 0px;
 }
 
+
+@property --num1 {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.div3650 {
+  transition: --num1 1s;
+  counter-set: num1 var(--num1);
+  /* font: 800 40px system-ui; */
+} 
+.div3650::after {
+  content: counter(num1);
+}
+.div3650:hover {
+  --num1: 3650;
+}
+
+@property --num2 {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.div1500 {
+  transition: --num2 1s;
+  counter-set: num2 var(--num2);
+  /* font: 800 40px system-ui; */
+}
+.div1500::after {
+  content: counter(num2);
+}
+.div1500:hover {
+  --num2: 1500;
+}
+
+@property --num3 {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.div500 {
+  transition: --num3 1s;
+  counter-set: num3 var(--num3);
+  /* font: 800 40px system-ui; */
+}
+.div500::after {
+  content: counter(num3);
+}
+.div500:hover {
+  --num3: 500;
+}
+
+@property --num4 {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.div3000 {
+  transition: --num4 1s;
+  counter-set: num4 var(--num4);
+  /* font: 800 40px system-ui; */
+}
+.div3000::after {
+  content: counter(num4);
+}
+.div3000:hover {
+  --num4: 3000;
+} 
+
 hr{
 	 border: 2px solid white;
 	 width: 40%;
@@ -284,3 +363,63 @@ footer{
 	 padding-bottom: 0.5rem;
 }
 
+.col-md-6{
+	text-align: center;
+}
+
+@media only screen and (max-width: 786px) {
+	.blocksContainer{
+		flex-direction: column;
+	}
+	.blocksContainer > div{
+		margin-top: 1rem;
+	}
+	.blocksContainer-2{
+		flex-direction: column;
+	}
+	.blocksContainer-2 > div{
+		margin-top: 1rem;
+	}
+	
+	.blocksContainer-4{
+		flex-direction: column;
+	}
+	.blocksContainer-4 > div{
+		margin-top: 1rem;
+	}
+	.img-grid{
+		width: -webkit-fill-available;
+		height: auto;
+	}
+	.testimonial-pic{
+		width: auto;
+	}
+	.testimonial-name{
+		font-size: revert;
+	}
+	.sixthDiv{
+		font-size: large;
+	}
+	.col-md-6 {
+		text-align: center;
+		align-items: center;
+	}
+	.hero-text{
+		margin: auto;
+		color: #fff;
+	}
+	.fourth-head{
+		margin-top: 2rem;
+	}
+	.phone{
+		margin: 0%;
+	}
+	.three-right{
+		padding-top: 70%;
+	}
+	.blocksContainer-3{
+		width: auto;
+		padding-top: 4rem;
+		flex-wrap: wrap;
+	}
+}
